@@ -1,0 +1,73 @@
+// footer inicio
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid white;
+
+    h2 {
+        font-size: 20px;
+        text-align: end;
+    }
+}
+
+// footer idolos
+
+@mixin footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.footerBocha {
+    background-color: #CA361B;
+    color: #F0EA7B;
+    border-top: 5px solid #F0EA7B;
+    @include footer;
+
+    a {
+        color: #F0EA7B;
+    }
+}
+
+// Palomo
+
+.footerPalomo {
+    background-color: $rojito;
+    color: white;
+    border-top: 5px solid $azul-oscuro;
+    @include footer;
+
+    a {
+        color: white;
+    }
+}
+
+// Erico
+
+.footerErico {
+    background-color: white;
+    color: $rojito;
+    border-top: 5px solid $rojito;
+    @include footer;
+
+    a {
+        color: $rojito;
+    }
+}
+
+
+//Contacto
+
+.footerContacto {
+    background-color: $rojito;
+    color: white;
+    border-top: 5px solid white;
+    @include footer;
+  
+    a {
+      color: white;
+    }
+  }
+  

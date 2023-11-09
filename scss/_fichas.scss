@@ -1,0 +1,123 @@
+// mixin para la info de los idolos
+
+@mixin infoIdolos {
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    overflow: auto;
+}
+
+@mixin ficha {
+
+    text-align: center;
+    font-size: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+@mixin datos {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, cursive;
+}
+
+
+// Bochini
+
+.infoBocha {
+    @include infoIdolos;
+    right: 0;
+    width: 170px;
+    height: 1110px;
+    background-color: $rojito;
+    border-left: 5px solid $oro;
+    border-bottom: 5px solid oro;
+}
+
+.fichaBocha {
+    @include ficha;
+    color: oro;
+
+}
+
+.datosBocha {
+
+    @include datos;
+    color: $oro;
+}
+
+.statsBocha {
+    @include infoIdolos;
+    left: 0;
+    width: 170px;
+    height: 1110px;
+    background-color: $rojito;
+    border-right: 5px solid $oro;
+    border-bottom: 5px solid $oro;
+}
+
+// Palomo
+
+.infoPalomo {
+    @include infoIdolos;
+    right: 0;
+    width: 180px;
+    height: 1110px;
+    background-color: $rojito;
+    border-left: 5px solid $azul-oscuro;
+    border-bottom: 5px solid $azul-oscuro;
+}
+
+.fichaPalomo {
+    @include ficha;
+    color: white;
+
+}
+
+.datosPalomo {
+
+    @include datos;
+    color: white;
+}
+
+.statsPalomo {
+    @include infoIdolos;
+    left: 0;
+    width: 180px;
+    height: 1110px;
+    background-color: #CA361B;
+    border-right: 5px solid $azul-oscuro;
+    border-bottom: 5px solid $azul-oscuro;
+}
+
+// Erico
+
+.infoErico {
+    @include infoIdolos;
+    right: 0;
+    width: 180px;
+    height: 1175px;
+    background-color: white;
+    border-left: 5px solid $rojito;
+    border-bottom: 5px solid $rojito;
+}
+
+.fichaErico {
+    @include ficha;
+    color: $rojito;
+
+}
+
+.datosErico {
+
+    @include datos;
+    color: $rojito;
+}
+
+.statsErico {
+    @include infoIdolos;
+    left: 0;
+    width: 180px;
+    height: 1175px;
+    background-color: white;
+    border-right: 5px solid $rojito;
+    border-bottom: 5px solid $rojito;
+}

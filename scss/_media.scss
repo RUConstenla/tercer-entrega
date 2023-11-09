@@ -1,0 +1,117 @@
+.inicio {
+    @media (max-width: 768px) {
+        .titulo2 {
+            flex-direction: column;
+        }
+
+        .ifc,
+        .cai {
+            align-self: center;
+            position: static;
+        }
+
+        .imagenesIdolos {
+            justify-content: flex-start;
+        }
+    }
+}
+
+
+
+.inicioPalomo {
+    @media only screen and (max-width: 768px) {
+        .tituloPalomo {
+            position: static;
+        }
+
+        .infoPalomo,
+        .statsPalomo {
+            position: static;
+            width: 100%;
+            height: auto;
+            border: none;
+            padding: 70px;
+        }
+    }
+}
+
+.inicioBocha {
+
+    @media only screen and (max-width: 768px) {
+        .inicioo {
+            background-image: none;
+            background-color: $rojito;
+        }
+
+        .infoBocha,
+        .statsBocha {
+            position: static;
+            width: 100%;
+            height: auto;
+            border: none;
+            padding: 50px;
+        }
+
+        .tituloBocha {
+            position: static;
+        }
+    }
+
+}
+
+
+.inicioErico {
+
+    @media only screen and (max-width: 768px) {
+        .inicioo {
+            background-image: none;
+        }
+
+        .infoErico,
+        .statsErico {
+            position: static;
+            width: 100%;
+            height: auto;
+            border: none;
+            padding: 50px;
+        }
+
+        .tituloErico {
+            position: static;
+        }
+    }
+
+
+}
+
+.inicioContacto {
+    @media (max-width: 768px) {
+        .titulo2 {
+            flex-direction: column;
+        }
+
+        .ifc,
+        .cai {
+            align-self: center;
+            position: static;
+        }
+
+        .contenedor {
+            grid-template-columns: 1fr;
+        }
+
+        .mapa {
+            color: white;
+
+            iframe {
+                width: 100%;
+                height: 300px;
+            }
+        }
+
+        .footerContacto {
+            text-align: center;
+        }
+    }
+
+}

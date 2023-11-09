@@ -1,0 +1,122 @@
+// mixin para las 3 paginas de idolos
+
+@mixin tituloIdolos {
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    width: 100%;
+    padding: 1px 0;
+}
+
+@mixin inicioIdolos {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+@mixin botonIdolos {
+
+    padding: 20px 40px;
+    font-size: 25px;
+
+    .dropdown-menu a {
+        font-size: 25px;
+    }
+}
+
+// Bochini
+
+
+.inicioBocha {
+    background-image: url(../imagenesIdolos/RicardoBochini.jpg);
+    background-size: cover;
+    min-height: 200vh;
+    @include inicioIdolos;
+
+}
+
+.tituloBocha {
+    border-bottom: 7px solid $oro;
+    background-color: $rojito;
+    color: $oro;
+    @include tituloIdolos;
+
+}
+
+.dropdown-bocha .btn {
+    background-color: $oro;
+    color: white;
+    border-color: $rojito;
+    @include botonIdolos;
+
+
+    .dropdown-toggle:hover {
+        background-color: $azul-oscuro;
+    }
+
+}
+
+// Palomo
+
+.inicioPalomo {
+    background-image: url(../imagenesIdolos/Palomo4ever.jpg);
+    background-size: cover;
+    min-height: 200vh;
+    @include inicioIdolos;
+
+}
+
+.tituloPalomo {
+    border-bottom: 7px solid $azul-oscuro;
+    background-color: $rojito;
+    color: white;
+    @include tituloIdolos;
+
+}
+
+.dropdown-palomo .btn {
+    background-color: $azul-oscuro;
+    color: white;
+    border-color: $rojito;
+    @include botonIdolos;
+
+
+    .dropdown-toggle:hover {
+        background-color: white;
+        color: $azul-oscuro;
+    }
+
+}
+
+// Erico
+
+.inicioErico {
+    background-image: url(../imagenesIdolos/Erico.jpg);
+    background-size: auto;
+    min-height: 210vh;
+    @include inicioIdolos;
+
+}
+
+.tituloErico {
+    border-bottom: 7px solid $rojito;
+    background-color: white;
+    color: $rojito;
+    @include tituloIdolos;
+
+}
+
+.dropdown-Erico .btn {
+    background-color: $rojito;
+    color: white;
+    border-color: $rojito;
+    @include botonIdolos;
+
+}
+
+.dropdown-toggle:hover {
+    background-color: $azul-oscuro;
+}

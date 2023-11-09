@@ -1,0 +1,107 @@
+.inicio {
+    background-color: $rojito;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    border: 7px solid black;
+    font-size: 37px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown {
+    margin: 40px;
+
+    .btn {
+        background-color: $rojito;
+        color: white;
+        border-color: $rojito;
+        padding: 20px 40px;
+        font-size: 25px;
+    }
+}
+
+.dropdown-menu a {
+    font-size: 25px;
+}
+
+.dropdown-toggle:hover {
+    background-color: $azul-oscuro;
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.ifc,
+.cai {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.pagina {
+    font-size: 40px;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: antiquewhite;
+}
+
+// Contacto
+
+.inicioContacto {
+    background-image: url(../imagenesIdolos/EstadioLDA.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+
+    .titulo {
+        border: 7px solid black;
+        font-size: 37px;
+        font-family: fantasy;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dropdown .btn {
+        background-color: #080249;
+        color: white;
+        border-color: #CA361B;
+        padding: 20px 40px;
+        font-size: 25px;
+    }
+
+    .dropdown-menu a {
+        font-size: 25px;
+    }
+
+    .dropdown-toggle:hover {
+        background-color: #CA361B;
+    }
+
+    .titulo2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .ifc,
+    .cai {
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+    }
+}

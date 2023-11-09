@@ -1,0 +1,59 @@
+@mixin contacto {
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 5px;
+
+    img {
+        width: 50px;
+        height: auto;
+    }
+
+
+}
+
+.contacto {
+    @include contacto;
+    background-color: white;
+
+    p {
+        margin: 0;
+        font-size: 20px;
+        color: $rojito;
+    }
+}
+
+.contactoBocha {
+    @include contacto;
+    background-color: $oro;
+
+    p {
+        margin: 0;
+        font-size: 20px;
+        color: $rojito;
+    }
+}
+
+.contactoErico {
+    @include contacto;
+    background-color: $rojito;
+
+    p {
+        margin: 0;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.contactoPalomo {
+    @include contacto;
+    background-color: $azul-oscuro;
+
+    p {
+        margin: 0;
+        font-size: 20px;
+        color: white;
+    }
+}

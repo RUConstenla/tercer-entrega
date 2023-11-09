@@ -1,0 +1,87 @@
+.queEsUnIdolo {
+    font-size: 25px;
+    font-family: serif, 'Times New Roman', Times;
+    color: antiquewhite;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    display: grid;
+    gap: 20px;
+}
+
+.que {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imagenesIdolos {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin: 0 10px;
+    }
+}
+
+.nombresIdolos {
+    text-align: center;
+
+    p {
+        font-size: 25px;
+        margin: 0;
+        color: white;
+        font-family: fantasy, 'Times New Roman', Times;
+    }
+
+    a:hover img {
+        filter: grayscale(100%);
+    }
+}
+
+
+// Contacto
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .formu {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times;
+  }
+  
+  .mapa {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times;
+  
+    iframe {
+      width: 100%;
+    }
+  }
+  
+  .contacto {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+  
+    img {
+      width: 70px;
+      height: auto;
+      cursor: pointer;
+    }
+  }

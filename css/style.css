@@ -1,0 +1,623 @@
+.inicio {
+  background-color: #CA361B;
+  padding-bottom: 50px;
+}
+
+.titulo {
+  border: 7px solid black;
+  font-size: 37px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.dropdown {
+  margin: 40px;
+}
+.dropdown .btn {
+  background-color: #CA361B;
+  color: white;
+  border-color: #CA361B;
+  padding: 20px 40px;
+  font-size: 25px;
+}
+
+.dropdown-menu a {
+  font-size: 25px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #080249;
+}
+
+.titulo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ifc,
+.cai {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.pagina {
+  font-size: 40px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: antiquewhite;
+}
+
+.inicioContacto {
+  background-image: url(../imagenesIdolos/EstadioLDA.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.inicioContacto .titulo {
+  border: 7px solid black;
+  font-size: 37px;
+  font-family: fantasy;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.inicioContacto .dropdown .btn {
+  background-color: #080249;
+  color: white;
+  border-color: #CA361B;
+  padding: 20px 40px;
+  font-size: 25px;
+}
+.inicioContacto .dropdown-menu a {
+  font-size: 25px;
+}
+.inicioContacto .dropdown-toggle:hover {
+  background-color: #CA361B;
+}
+.inicioContacto .titulo2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.inicioContacto .ifc,
+.inicioContacto .cai {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.queEsUnIdolo {
+  font-size: 25px;
+  font-family: serif, "Times New Roman", Times;
+  color: antiquewhite;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  display: grid;
+  gap: 20px;
+}
+
+.que {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.imagenesIdolos {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.imagenesIdolos img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  margin: 0 10px;
+}
+
+.nombresIdolos {
+  text-align: center;
+}
+.nombresIdolos p {
+  font-size: 25px;
+  margin: 0;
+  color: white;
+  font-family: fantasy, "Times New Roman", Times;
+}
+.nombresIdolos a:hover img {
+  filter: grayscale(100%);
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.formu {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times;
+}
+
+.mapa {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times;
+}
+.mapa iframe {
+  width: 100%;
+}
+
+.contacto {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 20px;
+}
+.contacto img {
+  width: 70px;
+  height: auto;
+  cursor: pointer;
+}
+
+.contacto {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+}
+.contacto img {
+  width: 50px;
+  height: auto;
+}
+.contacto p {
+  margin: 0;
+  font-size: 20px;
+  color: #CA361B;
+}
+
+.contactoBocha {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: #F0EA7B;
+}
+.contactoBocha img {
+  width: 50px;
+  height: auto;
+}
+.contactoBocha p {
+  margin: 0;
+  font-size: 20px;
+  color: #CA361B;
+}
+
+.contactoErico {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: #CA361B;
+}
+.contactoErico img {
+  width: 50px;
+  height: auto;
+}
+.contactoErico p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.contactoPalomo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 5px;
+  background-color: #080249;
+}
+.contactoPalomo img {
+  width: 50px;
+  height: auto;
+}
+.contactoPalomo p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-top: 3px solid white;
+}
+.footer h2 {
+  font-size: 20px;
+  text-align: end;
+}
+
+.footerBocha {
+  background-color: #CA361B;
+  color: #F0EA7B;
+  border-top: 5px solid #F0EA7B;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
+.footerBocha a {
+  color: #F0EA7B;
+}
+
+.footerPalomo {
+  background-color: #CA361B;
+  color: white;
+  border-top: 5px solid #080249;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
+.footerPalomo a {
+  color: white;
+}
+
+.footerErico {
+  background-color: white;
+  color: #CA361B;
+  border-top: 5px solid #CA361B;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
+.footerErico a {
+  color: #CA361B;
+}
+
+.footerContacto {
+  background-color: #CA361B;
+  color: white;
+  border-top: 5px solid white;
+  margin-top: auto;
+  text-align: center;
+  padding: 10px;
+}
+.footerContacto a {
+  color: white;
+}
+
+.inicioBocha {
+  background-image: url(../imagenesIdolos/RicardoBochini.jpg);
+  background-size: cover;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.tituloBocha {
+  border-bottom: 7px solid #F0EA7B;
+  background-color: #CA361B;
+  color: #F0EA7B;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  width: 100%;
+  padding: 1px 0;
+}
+
+.dropdown-bocha .btn {
+  background-color: #F0EA7B;
+  color: white;
+  border-color: #CA361B;
+  padding: 20px 40px;
+  font-size: 25px;
+}
+.dropdown-bocha .btn .dropdown-menu a {
+  font-size: 25px;
+}
+.dropdown-bocha .btn .dropdown-toggle:hover {
+  background-color: #080249;
+}
+
+.inicioPalomo {
+  background-image: url(../imagenesIdolos/Palomo4ever.jpg);
+  background-size: cover;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.tituloPalomo {
+  border-bottom: 7px solid #080249;
+  background-color: #CA361B;
+  color: white;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  width: 100%;
+  padding: 1px 0;
+}
+
+.dropdown-palomo .btn {
+  background-color: #080249;
+  color: white;
+  border-color: #CA361B;
+  padding: 20px 40px;
+  font-size: 25px;
+}
+.dropdown-palomo .btn .dropdown-menu a {
+  font-size: 25px;
+}
+.dropdown-palomo .btn .dropdown-toggle:hover {
+  background-color: white;
+  color: #080249;
+}
+
+.inicioErico {
+  background-image: url(../imagenesIdolos/Erico.jpg);
+  background-size: auto;
+  min-height: 210vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.tituloErico {
+  border-bottom: 7px solid #CA361B;
+  background-color: white;
+  color: #CA361B;
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  width: 100%;
+  padding: 1px 0;
+}
+
+.dropdown-Erico .btn {
+  background-color: #CA361B;
+  color: white;
+  border-color: #CA361B;
+  padding: 20px 40px;
+  font-size: 25px;
+}
+.dropdown-Erico .btn .dropdown-menu a {
+  font-size: 25px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #080249;
+}
+
+.infoBocha {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  overflow: auto;
+  right: 0;
+  width: 170px;
+  height: 1110px;
+  background-color: #CA361B;
+  border-left: 5px solid #F0EA7B;
+  border-bottom: 5px solid oro;
+}
+
+.fichaBocha {
+  text-align: center;
+  font-size: 50px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: oro;
+}
+
+.datosBocha {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, cursive;
+  color: #F0EA7B;
+}
+
+.statsBocha {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  overflow: auto;
+  left: 0;
+  width: 170px;
+  height: 1110px;
+  background-color: #CA361B;
+  border-right: 5px solid #F0EA7B;
+  border-bottom: 5px solid #F0EA7B;
+}
+
+.infoPalomo {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  overflow: auto;
+  right: 0;
+  width: 180px;
+  height: 1110px;
+  background-color: #CA361B;
+  border-left: 5px solid #080249;
+  border-bottom: 5px solid #080249;
+}
+
+.fichaPalomo {
+  text-align: center;
+  font-size: 50px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: white;
+}
+
+.datosPalomo {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, cursive;
+  color: white;
+}
+
+.statsPalomo {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  overflow: auto;
+  left: 0;
+  width: 180px;
+  height: 1110px;
+  background-color: #CA361B;
+  border-right: 5px solid #080249;
+  border-bottom: 5px solid #080249;
+}
+
+.infoErico {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  overflow: auto;
+  right: 0;
+  width: 180px;
+  height: 1175px;
+  background-color: white;
+  border-left: 5px solid #CA361B;
+  border-bottom: 5px solid #CA361B;
+}
+
+.fichaErico {
+  text-align: center;
+  font-size: 50px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  color: #CA361B;
+}
+
+.datosErico {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, cursive;
+  color: #CA361B;
+}
+
+.statsErico {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  overflow: auto;
+  left: 0;
+  width: 180px;
+  height: 1175px;
+  background-color: white;
+  border-right: 5px solid #CA361B;
+  border-bottom: 5px solid #CA361B;
+}
+
+@media (max-width: 768px) {
+  .inicio .titulo2 {
+    flex-direction: column;
+  }
+  .inicio .ifc,
+  .inicio .cai {
+    align-self: center;
+    position: static;
+  }
+  .inicio .imagenesIdolos {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inicioPalomo .tituloPalomo {
+    position: static;
+  }
+  .inicioPalomo .infoPalomo,
+  .inicioPalomo .statsPalomo {
+    position: static;
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inicioBocha .inicioo {
+    background-image: none;
+    background-color: #CA361B;
+  }
+  .inicioBocha .infoBocha,
+  .inicioBocha .statsBocha {
+    position: static;
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 50px;
+  }
+  .inicioBocha .tituloBocha {
+    position: static;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inicioErico .inicioo {
+    background-image: none;
+  }
+  .inicioErico .infoErico,
+  .inicioErico .statsErico {
+    position: static;
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 50px;
+  }
+  .inicioErico .tituloErico {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .inicioContacto .titulo2 {
+    flex-direction: column;
+  }
+  .inicioContacto .ifc,
+  .inicioContacto .cai {
+    align-self: center;
+    position: static;
+  }
+  .inicioContacto .contenedor {
+    grid-template-columns: 1fr;
+  }
+  .inicioContacto .mapa {
+    color: white;
+  }
+  .inicioContacto .mapa iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .inicioContacto .footerContacto {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
